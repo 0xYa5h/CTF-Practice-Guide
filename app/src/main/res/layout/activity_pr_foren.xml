@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".pr_foren">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/tbforen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/darker_gray"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:title="FORENSICS"
+        android:textAlignment="center"
+        app:titleMargin="100sp"
+        app:titleMarginBottom="15sp"
+        app:titleMarginTop="10sp"
+        app:titleTextAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+        <Button
+            android:id="@+id/for101"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#E0446060"
+            android:text="Forensics 101"
+            android:textAlignment="center"
+            android:textColor="#F4E51A"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+        <Button
+            android:id="@+id/takingls"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#446060"
+            android:text="Taking LS"
+            android:textAlignment="center"
+            android:textColor="@android:color/holo_orange_light"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+        <Button
+            android:id="@+id/binw"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#3A5050"
+            android:text="Binwalk"
+            android:textAlignment="center"
+            android:textColor="@android:color/holo_orange_dark"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+        <Button
+            android:id="@+id/exif"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#2F4545"
+            android:text="Exif"
+            android:textAlignment="center"
+            android:textColor="@android:color/holo_red_light"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+        <Button
+            android:id="@+id/dump"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#243535"
+            android:text="I'm a Dump"
+            android:textAlignment="center"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+</LinearLayout>

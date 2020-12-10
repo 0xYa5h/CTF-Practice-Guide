@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light"
+    tools:context=".misc_q1">
+
+    <TextView
+        android:id="@+id/head_mq1"
+        android:layout_width="363dp"
+        android:layout_height="78dp"
+        android:text="What could this be?"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_dark"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:enabled="true"
+        android:textIsSelectable="true"
+        android:longClickable="true"
+        android:focusable="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.231"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/chal_mq1"
+        android:layout_width="442dp"
+        android:layout_height="268dp"
+        android:layout_marginBottom="444dp"
+        android:text="It seems like someone really likes special characters… Or could it mean something more? https://mega.nz/#!SDQkUYQZ!b1Fu7iZ_wGiNX0aOjez95_74TYDCnLb3YSQfRzs0J-o"
+        android:textColor="@android:color/background_dark"
+        android:enabled="true"
+        android:textIsSelectable="true"
+        android:longClickable="true"
+        android:focusable="true"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/head_mq1"
+        app:layout_constraintVertical_bias="0.731" />
+
+    <TextView
+        android:id="@+id/point_mq1"
+        android:layout_width="88dp"
+        android:layout_height="62dp"
+        android:text="10 Points"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:enabled="true"
+        android:textIsSelectable="true"
+        android:longClickable="true"
+        android:focusable="true"
+        app:layout_constraintBottom_toTopOf="@+id/chal_mq1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/head_mq1"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <EditText
+        android:id="@+id/ans_mq1"
+        android:layout_width="438dp"
+        android:layout_height="184dp"
+        android:layout_marginBottom="120dp"
+        android:ems="10"
+        android:hint="Answer"
+        android:textIsSelectable="true"
+        android:longClickable="true"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.428"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/head_mq1"
+        app:layout_constraintVertical_bias="0.809" />
+
+    <Button
+        android:id="@+id/sub_mq1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#00ACC1"
+        android:text="Submit"
+        android:textColor="@android:color/background_dark"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.88"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ans_mq1"
+        app:layout_constraintVertical_bias="0.404" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

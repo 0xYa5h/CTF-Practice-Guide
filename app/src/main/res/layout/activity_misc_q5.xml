@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light"
+    tools:context=".misc_q5">
+
+    <TextView
+        android:id="@+id/head_mq5"
+        android:layout_width="166dp"
+        android:layout_height="50dp"
+        android:text="IP Tracer"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_dark"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:enabled="true"
+        android:textIsSelectable="true"
+        android:longClickable="true"
+        android:focusable="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.002" />
+
+    <TextView
+        android:id="@+id/chal_mq5"
+        android:layout_width="384dp"
+        android:layout_height="266dp"
+        android:text="Bob is an amateur hacker and has collected the following IP Address: 159.167.16.5, but Bob needs help finding where the IP Address is located. Can you help Bob find where the IP Address is located. (Type the City name)"
+        android:textColor="@android:color/background_dark"
+        android:enabled="true"
+        android:textIsSelectable="true"
+        android:longClickable="true"
+        android:focusable="true"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.372"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/head_mq5"
+        app:layout_constraintVertical_bias="0.218" />
+
+    <TextView
+        android:id="@+id/point_mq5"
+        android:layout_width="92dp"
+        android:layout_height="40dp"
+        android:text="10 Points"
+        android:textAlignment="textStart"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:enabled="true"
+        android:textIsSelectable="true"
+        android:longClickable="true"
+        android:focusable="true"
+        app:layout_constraintBottom_toTopOf="@+id/chal_mq5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.84"
+        app:layout_constraintStart_toEndOf="@+id/head_mq5"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.037" />
+
+    <EditText
+        android:id="@+id/ans_mq5"
+        android:layout_width="374dp"
+        android:layout_height="196dp"
+        android:ems="10"
+        android:hint="Answer"
+        android:textIsSelectable="true"
+        android:longClickable="true"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.379"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/head_mq5"
+        app:layout_constraintVertical_bias="0.698" />
+
+    <Button
+        android:id="@+id/sub_mq5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#00ACC1"
+        android:text="Submit"
+        android:textColor="@android:color/background_dark"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.895"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ans_mq5"
+        app:layout_constraintVertical_bias="0.391" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

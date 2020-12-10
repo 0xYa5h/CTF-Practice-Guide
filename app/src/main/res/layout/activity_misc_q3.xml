@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light"
+    tools:context=".misc_q3">
+
+    <TextView
+        android:id="@+id/head_mq3"
+        android:layout_width="166dp"
+        android:layout_height="50dp"
+        android:text="Wikipedia"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_dark"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:enabled="true"
+        android:textIsSelectable="true"
+        android:longClickable="true"
+        android:focusable="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.002" />
+
+    <TextView
+        android:id="@+id/chal_mq3"
+        android:layout_width="389dp"
+        android:layout_height="199dp"
+        android:layout_marginBottom="444dp"
+        android:text="Not much to go off here, but it’s all you need: Wikipedia and 128.125.52.138."
+        android:textColor="@android:color/background_dark"
+        android:enabled="true"
+        android:textIsSelectable="true"
+        android:longClickable="true"
+        android:focusable="true"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/head_mq3"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/point_mq3"
+        android:layout_width="92dp"
+        android:layout_height="40dp"
+        android:text="10 Points"
+        android:textAlignment="textStart"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:enabled="true"
+        android:textIsSelectable="true"
+        android:longClickable="true"
+        android:focusable="true"
+        app:layout_constraintBottom_toTopOf="@+id/chal_1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.84"
+        app:layout_constraintStart_toEndOf="@+id/head_mq3"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.037" />
+
+    <EditText
+        android:id="@+id/ans_mq3"
+        android:layout_width="380dp"
+        android:layout_height="235dp"
+        android:layout_marginBottom="120dp"
+        android:ems="10"
+        android:hint="Answer"
+        android:textIsSelectable="true"
+        android:longClickable="true"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.423"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/head_mq3"
+        app:layout_constraintVertical_bias="0.908" />
+
+    <Button
+        android:id="@+id/sub_mq3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#00ACC1"
+        android:text="Submit"
+        android:textColor="@android:color/background_dark"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.912"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ans_mq3"
+        app:layout_constraintVertical_bias="0.385" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

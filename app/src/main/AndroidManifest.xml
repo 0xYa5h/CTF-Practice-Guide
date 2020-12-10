@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.yk.ctfguide">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic0n"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic0n"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Scoreboard"></activity>
+        <activity android:name=".rev_q4" />
+        <activity android:name=".rev_q3" />
+        <activity android:name=".rev_q2" />
+        <activity android:name=".rev_q1" />
+        <activity android:name=".web_q4" />
+        <activity android:name=".web_q3" />
+        <activity android:name=".web_q2" />
+        <activity android:name=".web_q1" />
+        <activity android:name=".crypto_q5" />
+        <activity android:name=".crypto_q4" />
+        <activity android:name=".crypto_q3" />
+        <activity android:name=".crypto_q2" />
+        <activity android:name=".crypto_q1" />
+        <activity android:name=".pr_rev" />
+        <activity android:name=".pr_web" />
+        <activity android:name=".pr_misc" />
+        <activity android:name=".pr_foren" />
+        <activity android:name=".foren_q5" />
+        <activity android:name=".foren_q3" />
+        <activity android:name=".foren_q2" />
+        <activity android:name=".foren_q4" />
+        <activity android:name=".foren_q1" />
+        <activity android:name=".misc_q5" />
+        <activity android:name=".misc_q3" />
+        <activity android:name=".misc_q2" />
+        <activity android:name=".misc_q4" />
+        <activity android:name=".misc_q1" />
+        <activity android:name=".pr_crypto" />
+        <activity android:name=".Rev_guide" />
+        <activity android:name=".Web_guide" />
+        <activity android:name=".MISC_guide" />
+        <activity android:name=".Forensic_guide" />
+        <activity android:name=".Cryptography" />
+        <activity android:name=".practice_challs" />
+        <activity android:name=".guide" />
+        <activity android:name=".intro" />
+        <activity android:name=".Profile" />
+        <activity android:name=".About" />
+        <activity android:name=".Registration" />
+        <activity android:name=".Homepage" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

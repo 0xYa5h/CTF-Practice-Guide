@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light"
+    tools:context=".crypto_q4">
+
+    <TextView
+        android:id="@+id/head_q4"
+        android:layout_width="263dp"
+        android:layout_height="55dp"
+        android:text="Substitution Cipher"
+        android:textAlignment="viewStart"
+        android:textColor="@android:color/background_dark"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:enabled="true"
+        android:textIsSelectable="true"
+        android:longClickable="true"
+        android:focusable="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.358"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/chal_4"
+        android:layout_width="376dp"
+        android:layout_height="250dp"
+        android:text="Someone gave me this, but I haven't the slightest idea as to what it says! https://mega.nz/#!iCBz2IIL!B7292dJSx1PGXoWhd9oFLk2g0NFqGApBaItI_2Gsp9w Figure it out for me, will ya?  Flag Format: flag{ANSWER}"
+        android:textColor="@android:color/background_dark"
+        android:textSize="24sp"
+        android:enabled="true"
+        android:textIsSelectable="true"
+        android:longClickable="true"
+        android:focusable="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/head_q4"
+        app:layout_constraintVertical_bias="0.271" />
+
+    <TextView
+        android:id="@+id/point_q4"
+        android:layout_width="92dp"
+        android:layout_height="40dp"
+        android:text="10 Points"
+        android:textAlignment="viewEnd"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:enabled="true"
+        android:textIsSelectable="true"
+        android:longClickable="true"
+        android:focusable="true"
+        app:layout_constraintBottom_toTopOf="@+id/chal_2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.84"
+        app:layout_constraintStart_toEndOf="@+id/head_q4"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.037" />
+
+    <EditText
+        android:id="@+id/ans_q4"
+        android:layout_width="369dp"
+        android:layout_height="258dp"
+        android:layout_marginBottom="120dp"
+        android:ems="10"
+        android:hint="Answer"
+        android:inputType="textPersonName"
+        android:textIsSelectable="true"
+        android:longClickable="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.489"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/head_q4"
+        app:layout_constraintVertical_bias="0.823" />
+
+    <Button
+        android:id="@+id/sub_q4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#00ACC1"
+        android:text="Submit"
+        android:textColor="@android:color/background_dark"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.872"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ans_q4"
+        app:layout_constraintVertical_bias="0.36" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
